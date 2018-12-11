@@ -1,161 +1,63 @@
-/***** BASE STYLES *****/
-
-body {
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #2b2b2b;
+main {
+	padding: 30px;
 }
 
-#about, #work, #contact {
-	height: 600px;
+@media(min-width: 768px) {
+	
+.container-1 {
+	display: flex;
+}
 }
 
-/***** GRID *****/
-.full-width {
-	width: 1200px;
-	margin: 0 auto;
-}
-.half-width {
-	width: 600px;
-	float: left;
-}
-.third-width {
-	width: 400px;
-	float: left;
+.container-1 div {
+ border: 1px #ccc solid;
+ padding: 30px;
 }
 
-/***** HEADER *****/
-header {
-	height: 800px;
-	background: url('../img/hero.png') no-repeat;
-	background-size: cover;
-}
-header h1 {
-	font-family: 'Lora', serif;
-	font-size: 30px; 
-	color: #bbc085;
-	padding: 50px 0;
-}
-header h2 {
-    width: 1000px;
-    clear: both;
-    font-family: 'Lora', serif;
-    font-size: 72px;
-    line-height: 80px;
-    color: #9b9b9b;
-    padding: 20px 0;
-}
-header h2 span {
-    color: #2b2b2b;
-}
-nav {
-    float: right; 
-    padding: 75px 40px;
-}
-nav ul li{
-    display: inline-block;
-}
-nav ul li a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 18px;
-    color: #828282;
-    padding-left: 80px; 
+.sidebar {
+	flex-basis: 20%;
 }
 
-
-
-/***** ABOUT SECTION *****/
-#about .full-width {
-	padding: 80px 0;
-}
-#about h2 {
-	font-family: 'Lora', serif;
-	font-size: 36px;
-	padding-left: 50px;
-}
-#about p {
-	font-size: 21px;
-	color: #7F7F7F;
-	line-height: 40px;
-	padding-left: 50px;
-	padding-right: 30px;
+.content {
+	flex-basis: 80%;
 }
 
-/***** WORK SECTION *****/
-#work {
-	background: #f9ceb7;
+.next-steps, .footer {
+	flex-basis: 100%;
+}
+
+.banner, .next-steps, .conclusion, .footer {
 	text-align: center;
 }
-#work .full-width {
-	padding: 115px 0;
+
+li {
+	list-style-type: none;
 }
-#work img { 
-	padding-bottom: 30px;
-}
-#work h3 {
-    font-size: 24px;
-    line-height: 32px;
-    width: 200px;
-    margin: 0 auto;
-}
-#work p {
-    font-family: 'Lora', serif; 
-    font-size: 18px;
-    line-height: 30px;
-    padding: 0 50px;
+.bullet li {
+	list-style-type: square;
 }
 
-/***** CONTACT SECTION *****/
-#contact {
-	background: #ebebeb;
+span {
+	color: #9e0000;
 }
-#contact .full-width {
-	padding: 110px 0;
+
+.line-break {
+	border: 2px #9e0000 solid;
 }
-#contact img#contact-img {
-	margin-left: 25px;
-	border: 12px solid #ffffff;
-}
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
-	padding-left: 115px;
-}
-#contact #envelope {
-	padding: 0 10px 0 115px;
-	/*color: #c49075;
-	font-size: 28px;*/
-}
-#contact h2 {
-    font-family: 'Lora', serif;
-    font-size: 36px;
-    line-height: 44px;
-}
-#contact #email-header{
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 44px;
-    margin: -30px 0 5px 0;
-}
-#contact #socialmedia-header {
-    font-weight: 700px;
-    font-size: 29px;
-    line-height: 44px;
-    margin: 40px 0 0 0;
-}
-#contact a {
-    text-decoration: none;
-    color: #c49075;
-    font-weight: 700;
-    font-size: 28px;
-}
-#contact ul {
-    list-style: none;
-}
-#contact ul li {
-     display: inline-block;
-}
-#contact ul img {
-    font-size: 32px;
-    padding-right: 48px;
+
+.banner{
+	background-color: #000000;
+	color: #ffffff;
 }
 
 
+
+
+.footer li{
+	display: inline-flex;
+
+}
+
+@media(min-width: 768px) {
+
+}
