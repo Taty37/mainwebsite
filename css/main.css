@@ -1,67 +1,219 @@
-main {
-	padding: 30px;
+body, html {
+	height: 100%;
+	background: #ebe9e9;
+
 }
 
 @media(min-width: 768px) {
 	
-.container-1 {
+.container-2 {
 	display: flex;
+	flex-direction: column;
+}
+
+.container-2 div {
+ /*border: 1px #ccc solid;*/
+ padding: 15px 80px;
+ /*margin-top: 20px;*/
+ margin-bottom: 20px;
 }
 }
+
+@media(max-width: 768px){
+	.container-1, .icons, .content, .support, .challenge-3, .pain-point-3, .design-3, .design-4, .design-5 {
+		display: flex;
+		flex-direction: column;
+	}
+	iframe {
+		width: 320px;
+		height: 200px;
+	}
+	
+}
+
+header {
+	background: url("../images/lbs-hp-mockup.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	height: 70%;
+  }
+
+ main {
+	padding: 30px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Volkhov', serif;
+	font-weight: 400;
+}
+
+p, div li {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+
+.challenge .support img, .pain-point-2 .support img {
+	border: 2px #30323d solid;
+}
+
+.pain-point div {
+	border: 4px #9e0000 solid;
+}
+
+.challenge-3 .support {
+	background: url("../images/lbs-original-images@3x.png");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: contain;
+  	position: relative;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+}
+
+.icons img {
+	height: 52px;
+	width: 52px;
+}
+
+
+figcaption { 
+  display: block;
+}
+
+.pain-point-2 .support img {
+	height: 50%;
+	width: 70%;
+	position: center;
+}
+
+.pain-point-3 .support {
+	background: url("../images/user-interview-quotes@3x.png");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: contain;
+  	position: relative;
+}
+
+.design-3 .support img, .design-4 .support img, .design-5 .support img {
+	height: 100%;
+	width: 100%;
+	position: center;
+}
+
+.design-3 .d3, .design-4 .d3, .design-5 .d3 {
+	padding-top: 5%;
+	padding-bottom: 5%; 
+}
+
+
 
 .container-1 div {
- border: 1px #ccc solid;
- padding: 30px;
+	/*border: 1px #ccc solid;*/
+	height: 10%;
+	margin: 0;
+	padding: 0;
 }
 
-.sidebar {
-	flex-basis: 20%;
+
+.container-1, .challenge, .challenge-3, .pain-point, .pain-point-3, .design-3, .design-4, .design-5 {
+	display: flex;
 }
 
-.content {
-	flex-basis: 80%;
+
+.title {
+	flex-basis: 50%;
+}
+.title-2 {
+	flex-basis: 50%;
 }
 
-.next-steps, .footer {
-	flex-basis: 100%;
+.intro, .design, .takeaway, .container-3 {
+	background: #30323D;
+	color: #ebe9e9;
 }
 
-.banner, .next-steps, .conclusion, .footer {
+.challenge {
+	border: 1px #ffffff solid;
+	padding: 20px;
+}
+.challenge-info {
+	flex-basis: 50%;
+}
+
+.support {
+	flex-basis: 50%;
+}
+
+.intro div, .challenge-2 div, .pain-point-2 div, .design-2 div, .takeaway {
+	padding-left: 17%;
+	padding-right: 17%;
+}
+
+.challenge-2, .pain-point, .pain-point-2 div, .icons, .design-2, .intro, .prototype, .takeaway, .design-3, .design-4, .design-5 {
+	text-align: center;
+}
+
+.container-2 .icons {
+	padding: 0;
+	margin: 0;
+}
+
+.pain-point li, .pain-point-3 li {
+	text-align: left;
+}
+
+.pain-1 {
+	flex-basis: 25%;
+}
+.pain-2 {
+	flex-basis: 50%;
+}
+
+
+.pp3 {
+	flex-basis: 50%;
+}
+
+.d3 {
+	flex-basis: 50%;
+}
+
+
+nav {
+	padding-left: 40%;
+}
+
+nav a, .footer a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 20px;
+}
+
+nav li, .footer li {
+	display: inline-flex;
+	padding: 0 20px;
+}
+
+.footer {
 	text-align: center;
 }
 
 li {
 	list-style-type: none;
 }
+
 .bullet li {
 	list-style-type: square;
 }
 
-span {
-	color: #9e0000;
-}
-
-.line-break {
-	border: 2px #9e0000 solid;
-}
-
-.banner{
-	background-color: #000000;
-	color: #ffffff;
-}
-
-.quotes {
-	text-align: center;
+.takeaway {
+	margin-bottom: 0;
 }
 
 
-
-
-.footer li{
-	display: inline-flex;
-
-}
-
-@media(min-width: 768px) {
-
-}
