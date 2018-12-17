@@ -14,9 +14,9 @@
 	<nav>
         <img src="images/legitbudstore-logo-revised.png" width="200" height="40">
             <ul>
-            	<li><a href="#about">ABOUT</a>
+            	<li><a href="index.html#about"><span>ABOUT</span></a>
                	</li>
-                <li><a href="#work">WORK</a></li>
+                <li><a href="index.html#work">WORK</a></li>
                 <li><a href="#contact">CONTACT</a></li>
             </u>
     </nav>		
@@ -75,7 +75,7 @@
     			<div class="pain-1">
     				<h3>KEY</h3>
     			<p>
-    				Can you think about a time where you visited a site and couldn’t find what you were looking for because the options led you down a path that cause you to eventually give?
+    				Can you think about a time where you visited a site and couldn’t find what you were looking for because the options led you down a path that caused you to eventually give up?
     			</p>
     			</div>
     			<div class="pain-2">
@@ -106,7 +106,7 @@
     			</div>
     			<div>
     				<p>
-    					Users want a quick, common and easy process that avoids unnecessary form fields and the pressure to subscribe and be bombarded with junk mail or advertising calls. My users let me know exactly how they felt:
+    					Users want a quick, common and easy process that avoids unnecessary form fields and the pressure to subscribe and be bombarded with junk mail or advertising calls. My users gave me an idea of what they wanted:
     				</p>
     			</div>
     		</div>
@@ -187,18 +187,31 @@
     				<em>Thank You For Reading!!</em>
     			</p>
     		</div>
-				<div class="footer">
-					<ul>
-						<li><a href="index.html">HOME</a></li>
-						<li><a href="index.html">P5 PROJECT</a></li>
-						<li><a href="linus.html">LINUS BIKES</a></li>
-						<li><a href="legit-bud.html">LEGIT BUD STORE</a></li>
-						<li><a href="#about">ABOUT</a></li>
-						<li><a href="contact.html">CONTACT</a></li>
-					</ul>
+                <div class="container">
+				<div class="navbar" id="myNavbar">
+						<a href="index.html">HOME</a>
+						<a href="index.html">P5 PROJECT</a>
+						<a href="linus.html">LINUS BIKES</a>
+						<a href="legit-bud.html">LEGIT BUD STORE</a>
+						<a href="#about">ABOUT</a>
+						<a href="contact.html">CONTACT</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 				</div>
+                </div>
 			</div>
     </main>
+
 </body>
+
+    <script>
+    function myFunction() {
+    var x = document.getElementById("myNavbar");
+    if (x.className === "navbar") {
+    x.className += " responsive";
+    } else {
+    x.className = "navbar";
+    }
+}
+    </script>
 
 </html>

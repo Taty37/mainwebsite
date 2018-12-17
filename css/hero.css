@@ -48,7 +48,7 @@ body, html {
 
 .pimg5 {
 	background-image: url('../images/about-hero.jpeg');
-	min-height: 900px;
+	min-height: 800px;
 }
 
 
@@ -65,6 +65,20 @@ body, html {
 .section-dark {
 	background-color: #30323d;
 	color: #EBE9E9;
+}
+
+.content {
+	display: flex;
+}
+.buffer {
+	flex-basis: 50%;
+}
+.about-text {
+	flex-basis: 50%;
+	padding: 80px;
+}
+.alert-text {
+	color: #e90000;
 }
 
 .ptext {
@@ -120,13 +134,18 @@ nav a {
 
 @media(max-width: 568px) {
 	.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
-		background-attachment: scroll;
+		background-attachment: fixed;
 	}
 	.pimg1 {
 	background-image: url('../images/taty-potrait-bw.png');
 	min-height: 700px;
-	opacity: 0.7;
+	opacity: 0.6;
 	}
+	.pimg5 {
+	background-image: url('../images/about-hero.jpeg');
+	min-height: 700px;
+	}
+
 	nav img {
 		width: 100px;
 		height: 40px;
@@ -135,6 +154,11 @@ nav a {
 	nav ul{
 		display: none;
 	}
+	.about-text {
+	flex-basis: 150%;
+	padding-left: 20px;
+	font-size: 14px;
+}
 }
 
 
