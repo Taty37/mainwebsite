@@ -10,7 +10,7 @@ body, html {
 
 .pimg1 {
 	position: relative;
-	opacity: 0.90;
+	opacity: 0.70;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -27,7 +27,7 @@ body, html {
 }
 
 .pimg1 {
-	background-image: url('../images/taty-hero1.png');
+	background-image: url('../images/head-shot-red@3x.png');
 	min-height: 800px;
 }
 
@@ -136,11 +136,7 @@ nav a {
 	.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
 		background-attachment: fixed;
 	}
-	.pimg1 {
-	background-image: url('../images/taty-potrait-bw.png');
-	min-height: 700px;
-	opacity: 0.6;
-	}
+
 	.pimg5 {
 	background-image: url('../images/about-hero.jpeg');
 	min-height: 700px;
