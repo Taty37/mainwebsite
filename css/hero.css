@@ -8,16 +8,16 @@ body, html {
 	color: #30323d;
 }
 
-.pimg1 {
+/*.pimg1 {
 	position: relative;
 	opacity: 0.70;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-}
+}*/
 
-.pimg2, .pimg3, .pimg4, .pimg5 {
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6 {
 	position: relative;
 	opacity: 0.70;
 	background-position: center;
@@ -48,6 +48,11 @@ body, html {
 
 .pimg5 {
 	background-image: url('../images/about-hero.jpeg');
+	min-height: 800px;
+}
+
+.pimg6 {
+	background-image: url('../images/contact-image@3x.png');
 	min-height: 800px;
 }
 
@@ -132,9 +137,22 @@ nav a {
 	color: #ebe9e9;
 }
 
+.contact-nav li {
+	font-size: 20px;
+}
+
+.contact-nav a {
+	color: #30323d;
+}
+
 @media(max-width: 568px) {
 	.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
-		background-attachment: fixed;
+		background-attachment: scroll;
+	}
+
+	.pimg1 {
+	background-image: url('../images/head-shot-red@3x.png');
+	min-height: 700px;
 	}
 
 	.pimg5 {
