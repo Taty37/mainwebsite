@@ -134,7 +134,8 @@ nav ul li {
 
 nav a {
 	text-decoration: none;
-	color: #ebe9e9;
+	color: #30323d;
+	font-size: 18px;
 }
 
 .contact-nav li {
@@ -144,6 +145,52 @@ nav a {
 .contact-nav a {
 	color: #30323d;
 }
+
+i {
+	padding: 0 20px;
+	color: #30323d;
+}
+
+i a {
+	text-decoration: none;
+}
+
+.navbar {
+  background-color: #30323d;
+  overflow: hidden;
+  position: relative;
+  bottom: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ebe9e9;
+    text-align: center;
+    justify-content: center;
+    padding: 14px 70px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: #30323d;
+}
+
+/* Add a background color to the active link */
+.navbar a.active {
+  background-color: #e90000;
+  color: #ebe9e9;
+}
+
+/* Hide the link that should open and close the navbar on small screens */
+.navbar .icon {
+    display: none;
+}
+
+
 
 @media(max-width: 568px) {
 	.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
@@ -168,11 +215,30 @@ nav a {
 	nav ul{
 		display: none;
 	}
+
 	.about-text {
 	flex-basis: 150%;
 	padding-left: 20px;
 	font-size: 14px;
-}
+	}
+
+	.navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+    float: right;
+    display: flex;
+    /*padding-right: 40px;*/
+    }
+
+    .navbar.responsive a.icon {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+   }
 }
 
 
