@@ -297,7 +297,14 @@ li {
   	display: none;
 }
 
+i {
+	padding: 0 20px;
+	color: #ebe9e9;
+}
 
+i a {
+	text-decoration: none;
+}
 
 
 @media(min-width: 768px) {
