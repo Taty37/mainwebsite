@@ -27,7 +27,7 @@ body, html {
 }
 
 .pimg1 {
-	background-image: url('../images/head-shot-red@3x.png');
+	background-image: url('../images/abstract-architecture.jpg');
 	min-height: 800px;
 }
 
@@ -42,13 +42,13 @@ body, html {
 }
 
 .pimg4 {
-	background-image: url('../images/stock-hero.jpeg');
+	background-image: url('../images/fashion-dress.jpg');
 	min-height: 400px;
 }
 
 .pimg5 {
 	background-image: url('../images/about-hero.jpeg');
-	min-height: 800px;
+	min-height: 400px;
 }
 
 .pimg6 {
@@ -75,9 +75,7 @@ body, html {
 .content {
 	display: flex;
 }
-.buffer {
-	flex-basis: 50%;
-}
+
 .about-text {
 	flex-basis: 50%;
 	padding: 80px;
@@ -134,7 +132,7 @@ nav ul li {
 
 nav a {
 	text-decoration: none;
-	color: #30323d;
+	color: #e90000;
 	font-size: 18px;
 }
 
@@ -168,7 +166,7 @@ i a {
     color: #ebe9e9;
     text-align: center;
     justify-content: center;
-    padding: 14px 70px;
+    padding: 14px 97px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -198,7 +196,7 @@ i a {
 	}
 
 	.pimg1 {
-	background-image: url('../images/head-shot-red@3x.png');
+	background-image: url('../images/abstract-architecture.jpg');
 	min-height: 700px;
 	}
 
@@ -226,7 +224,7 @@ i a {
     .navbar a.icon {
     float: right;
     display: flex;
-    /*padding-right: 40px;*/
+    padding-right: 40px;
     }
 
     .navbar.responsive a.icon {
