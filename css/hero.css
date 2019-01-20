@@ -51,11 +51,6 @@ body, html {
 	min-height: 400px;
 }
 
-.pimg6 {
-	background-image: url('../images/contact-image@3x.png');
-	min-height: 800px;
-}
-
 
 .section {
 	text-align: center;
@@ -202,7 +197,7 @@ i a {
 
 	.pimg5 {
 	background-image: url('../images/about-hero.jpeg');
-	min-height: 700px;
+	min-height: 200px;
 	}
 
 	nav img {
