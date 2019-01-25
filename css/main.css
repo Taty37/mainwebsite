@@ -580,7 +580,13 @@ i a {
 	display: flex;
 	align-self: flex-end;
 	flex-grow: 0;
-  	}
+	}
+	.navbar {
+		max-width: 300px;
+		/* Use this 300px value to be however big you want the nav area to be */
+		margin: 0 auto;
+
+	}  
   	.navbar.responsive a {
     	float: none;
     	display: block;
@@ -595,7 +601,7 @@ i a {
 		flex-wrap: wrap;
 	}
 	.navbar .navbar-inner a {
-		flex: 1;
+		width: 100%;
 		margin: 0;
 		text-align: left;
 	}
