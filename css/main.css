@@ -587,14 +587,10 @@ i a {
     	bottom: 0;
   	}
   	.navbar.responsive a {
-    	float: left;
+    	float: none;
     	display: block;
+    	text-align: left;
  	 }
-
- 	/* .navbar a {
- 	 	text-align: center;
-    	justify-content: center;
- 	 }*/
 
 	.challenge-3 img {
 		justify-content: center;
