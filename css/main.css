@@ -582,7 +582,7 @@ i a {
 	flex-grow: 0;
 	}
 	.navbar {
-		max-width: 300px;
+		max-width: 500px;
 		/* Use this 300px value to be however big you want the nav area to be */
 		margin: 0 auto;
 
@@ -623,7 +623,7 @@ i a {
   		height: auto;
 	}
 	.takeaway {
-		max-height: 450px;
+		max-height: 700px;
 	}
 	.takeaway h3 {
 		font-size: 18px;
